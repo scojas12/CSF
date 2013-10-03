@@ -36,11 +36,11 @@ print x1,"and", x2
 ###
 
 print "Problem 2 solution follows:"
-import hw1_test.py
-str(hw1_test.py)
+from hw1_test import *
+print a,b,c,d,e,f
 
 
-# ... write your code and comments here (and remove this line)
+# Jason, Brandon, Alex and I all worked together from different google searches
 
 
 ###
@@ -50,10 +50,11 @@ str(hw1_test.py)
 print "Problem 3 solution follows:"
 
 # ... write your code and comments here (and remove this line)
-
+print "((",a," and ",b,") or (not ",c,") and not (",d," or ",e," or ",f,"))"
+print "is",((a and b) or (not c) and not (d or e or f)) 
 
 ###
 ### Collaboration
 ###
 
-# ... List your collaborators here, as a comment (on a line starting with "#").
+# ... Brandon, Jason, Alex and I.
