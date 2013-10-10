@@ -1,0 +1,17 @@
+Grader Name: Jacob Morris
+Evergreen Login: morjac05
+October 10th, 2013
+
+3/3
+
+The code is efficient; only complaint in terms of code aesthetic is that
+I, personally, would have printed the answers to problem 2 on separate
+lines, or separated them visually somehow.
+
+The grammatically correct way of phrasing "of the function: 
+x^2 - 5.86x + 8.5408 the roots are" would be
+"the roots of the function x^2 - 5.86x + 8.5408 are:", but this is
+simply for basic clarity and does not impede the code's execution.
+
+The code is functional and not inelegant. It does as much could be
+asked of it.
