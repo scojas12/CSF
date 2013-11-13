@@ -1,4 +1,4 @@
-﻿Name: Micah Stringham
+Name: Micah Stringham
 Evergreen Login: Strmic29
 Computer Science Foundations
 Programming as a Way of Life
@@ -56,8 +56,31 @@ No problems with them being the same, although most differed...
 
 Problem 7:
 
+GC-content: 0.430599870611
+AT-content: 0.569400129389
+G-count: 5738773
+C-count: 5879128
+A-count: 7701287
+T-count: 7661547
+sum count: 26980735
+total count: 27000000
+seq length: 27000000
+AT/GC: 1.32234161747
 
-Collaboration: 	
+Problem 8:
+GC-content: 0.430599870611
+AT-content: 0.569400129389
+G-count: 5738773
+C-count: 5879128
+A-count: 7701287
+T-count: 7661547
+sum count: 26980735
+total count: 27000000
+seq length: 27000000
+AT/GC: 1.32234161747
+GC Classification: Moderate GC content
+
+Collaboration: 	all by myself
 
 ...
 
@@ -69,4 +92,5 @@ fun assignment once it starts working!
 
 Problem 6 gave me a lot of trouble because of the wording. the three quantities could be compared to the others but not very many were the same, like you said we might mistake and have
 
+I enjoyed this once i got it. seems like i just need to get whats going on, and then its all down hill. 
 

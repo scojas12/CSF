@@ -76,10 +76,7 @@ for bp in seq:
             g_count = g_count +1
             
        
-for bp in seq:
-    # increment the total number of bps we've seen
-    total_count = total_count + 1
-    
+for bp in seq:    
     # next, if the bp is a A or a T,
     if bp == 'A' or bp == 'T':
         # increment the count of AT
@@ -89,12 +86,13 @@ for bp in seq:
         else: t_count = t_count + 1
 
 #          
-at_gc_ratio = (at_count) // (gc_count)                       
+                     
 
 
 # divide the gc_count and at_count by the total_count
-gc_content = float(gc_count) / total_count
-at_content = float(at_count) / total_count
+gc_content = float(gc_count) / (g_count + c_count + a_count + t_count)
+at_content = float(at_count) / (g_count + c_count + a_count + t_count)
+at_gc_ratio = float(at_content/gc_content)  
 # Print the answer
 print 'GC-content:', gc_content
 print "AT-content:", at_content
@@ -106,3 +104,9 @@ print "sum count:",g_count + c_count + a_count + t_count
 print "total count:",total_count
 print "seq length:",len(seq)
 print "AT/GC:",float(at_gc_ratio)
+if (gc_content > .60):
+    print "GC Classification:","High GC content"
+elif (gc_content < .40):
+    print "GC Classification:","Low GC content"
+else: 
+    print "GC Classification:","Moderate GC content"
