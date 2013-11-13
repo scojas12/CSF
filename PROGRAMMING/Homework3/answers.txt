@@ -1,0 +1,48 @@
+Name: ...
+Evergreen Login: ...
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+python dna_analysis.py data/sample_1.fastq
+
+GC-content: 0.43029262963
+
+Problem 3:
+
+The program fails because the name "linenum" is not defined.
+This happened due to the fact that we commented out linenum = 0
+thereby erasing the variable's value, later needed.
+
+if we were to comment out "gc_count = 0" the program would lose value
+for the variable "gc_count" and later when it is referenced,
+the program would have no value to reference and not understand "gc_count".
+
+Problem 4:
+
+GC-content: 0.215146314815
+AT-content: 0.284496925926
+
+Collaboration:
+
+...
+
+Reflection:
+
+For some reason the program kept retiring syntax errors… until friday night
+ when running the program randomly returned the GC-content so i could start
+fun assignment once it starts working!

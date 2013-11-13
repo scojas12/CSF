@@ -59,6 +59,7 @@ t_count = 0
 g_count = 0
 c_count = 0
 
+
 # for each base pair in the string,
 for bp in seq:
     # increment the total number of bps we've seen
@@ -86,8 +87,9 @@ for bp in seq:
         if bp == "A":
             a_count = a_count + 1
         else: t_count = t_count + 1
-        
-            
+
+#          
+at_gc_ratio = (at_count) // (gc_count)                       
 
 
 # divide the gc_count and at_count by the total_count
@@ -96,10 +98,11 @@ at_content = float(at_count) / total_count
 # Print the answer
 print 'GC-content:', gc_content
 print "AT-content:", at_content
-print "g-count:",g_count
-print "c-count:",c_count 
-print "a-count:",a_count
-print "t-count:",t_count
+print "G-count:",g_count
+print "C-count:",c_count 
+print "A-count:",a_count
+print "T-count:",t_count
 print "sum count:",g_count + c_count + a_count + t_count
 print "total count:",total_count
 print "seq length:",len(seq)
+print "AT/GC:",float(at_gc_ratio)

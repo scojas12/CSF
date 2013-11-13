@@ -1,4 +1,4 @@
-Name: Micah Stringham
+﻿Name: Micah Stringham
 Evergreen Login: Strmic29
 Computer Science Foundations
 Programming as a Way of Life
@@ -52,8 +52,12 @@ sum count: 9510883
 total count: 19021856
 seq length: 9510928
 
+No problems with them being the same, although most differed...
 
-Collaboration:
+Problem 7:
+
+
+Collaboration: 	
 
 ...
 
