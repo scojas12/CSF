@@ -1,5 +1,5 @@
-Name: ...
-Evergreen Login: ...
+Name: Micah Stringham
+Evergreen Login: Strmic29
 Computer Science Foundations
 Programming as a Way of Life
 Fall 2013
@@ -37,6 +37,22 @@ Problem 4:
 GC-content: 0.215146314815
 AT-content: 0.284496925926
 
+Problem 5:
+
+g_count: 5738773
+c_count: 5879128
+a_count: 7701287
+t_count: 7661547
+
+Problem 6:
+
+sample 3 differed from all 10 other files
+
+sum count: 9510883
+total count: 19021856
+seq length: 9510928
+
+
 Collaboration:
 
 ...
@@ -46,3 +62,7 @@ Reflection:
 For some reason the program kept retiring syntax errors… until friday night
  when running the program randomly returned the GC-content so i could start
 fun assignment once it starts working!
+
+Problem 6 gave me a lot of trouble because of the wording. the three quantities could be compared to the others but not very many were the same, like you said we might mistake and have
+
+
