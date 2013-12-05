@@ -1,3 +1,4 @@
+#tight code bro
 # Name: Micah Stringham 
 # Evergreen Login: Strmic29
 # Computer Science Foundations
